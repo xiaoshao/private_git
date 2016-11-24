@@ -24,6 +24,7 @@
 4. git rebase --abort 取消解决冲突
 
 ## 修改commits记录
+---
 1. git rebase -i HEAD~<N> 列出需要解决的所有commits 
 2. 修改需要处理的commits前面的pick
     r: 修改注释
@@ -31,6 +32,7 @@
     s: 合并到前面的提交
     
 ## Pull request 的使用
+---
 1. 首先在提交代码到origin之前， 解决本地代码与upstream代码的冲突。
     git pull -r upstream master
     
